@@ -1,5 +1,11 @@
-
+import GlobalLoader from './GlobalLoader'
+import { Profile } from './profile/Profile'
 
 export function Header() {
-	return <div>Header</div>
+	return (
+		<header>
+			<GlobalLoader />
+			<Profile />
+		</header>
+	)
 }
