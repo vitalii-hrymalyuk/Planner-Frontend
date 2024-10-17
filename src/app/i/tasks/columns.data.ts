@@ -1,5 +1,5 @@
 import dayjs, { type Dayjs } from 'dayjs'
-import 'dayjs/locale/ru'
+import 'dayjs/locale/en'
 
 import isoWeek from 'dayjs/plugin/isoWeek'
 import weekOfYear from 'dayjs/plugin/weekOfYear'
