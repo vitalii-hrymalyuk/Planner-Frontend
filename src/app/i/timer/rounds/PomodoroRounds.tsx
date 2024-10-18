@@ -42,7 +42,7 @@ export function PomodoroRounds({
 								[styles.active]:
 									round.id === activeRound?.id && !round.isCompleted
 							})}
-						></div>
+						/>
 					))}
 			</div>
 			<button
