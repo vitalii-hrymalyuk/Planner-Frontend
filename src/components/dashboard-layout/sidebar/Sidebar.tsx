@@ -53,7 +53,7 @@ export function Sidebar() {
 					rel='noreferrer'
 					className='hover:text-primary text-brand-300 transition-colors'
 				>
-					Group Name
+					Company
 				</a>
 				. <br /> All rights reserved.
 			</footer>
