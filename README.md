@@ -1,36 +1,120 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+## Planner Frontend
 
-## Getting Started
+A modern, responsive task management application frontend built with Next.js, TanStack React Query, React Hook Form, and Tailwind CSS. This application helps users manage their tasks efficiently, utilizing drag-and-drop functionality, dynamic task resizing, and a Pomodoro timer for productivity enhancement.
 
-First, run the development server:
+---
+
+## Features
+
+### Time Blocks
+
+- Dynamic Task Sizing: Automatically adjusts task elements based on the duration of the task for visual clarity.
+
+- Drag and Drop: Seamlessly rearrange your tasks by dragging and dropping them in the scheduler.
+
+- Full CRUD Operations: Add, edit, delete, and view tasks in a clean, user-friendly interface.
+
+### Task Management
+
+- List and Kanban Views: Organize tasks with flexibility using traditional list views or Kanban-style boards.
+
+- Interactive Drag and Drop: Move tasks between different statuses or dates with an automatic update of task properties.
+
+- Task Categorization and Prioritization: Enhance productivity by categorizing tasks and setting their priority levels.
+
+### Pomodoro Timer
+
+- Customizable Sessions: Personalize the timer to fit your work style by setting custom rounds and session lengths.
+
+- Focus Mode: Boost productivity using the Pomodoro technique to balance work and breaks.
+
+- User-Friendly Interface: Simple controls for starting, pausing, and resetting Pomodoro sessions, ensuring an intuitive user experience.
+
+---
+
+## Technology Stack
+
+- **[Next.js](https://nextjs.org/docs)**: Next.js is a powerful web development framework that simplifies the process of building fast, interactive applications.
+
+- **[TypeScript](https://www.typescriptlang.org/docs/)**: A strongly typed programming language that builds on JavaScript.
+
+- **[TanStack React Query](https://tanstack.com/query/v5/docs/react/overview)**: A powerful data-fetching and state management library for managing server-state in React applications, improving performance and developer experience.
+
+- **[React Hook Form](https://react-hook-form.com/get-started)**: A library for building and managing forms, providing easy validation and high-performance handling of form inputs.
+
+- **[Tailwind CSS](https://tailwindcss.com/docs/installation)**: A utility-first CSS framework for rapidly building custom, responsive designs with minimal effort.
+
+---
+
+## Prerequisites
+
+Before you begin, ensure you have the following installed:
+
+- Node.js (v14 or higher)
+- npm or yarn
+
+---
+
+## Installation
+
+1. Clone the repository
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+   git clone https://github.com/vitalii-hrymalyuk/planner-frontend.git
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. Navigate to the project directory
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+   cd planner-frontend
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+3.
 
-## Learn More
+```bash
+   	# Using npm
+   	npm install
 
-To learn more about Next.js, take a look at the following resources:
+   	# Or using yarn
+   	yarn install
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Running the Application
 
-## Deploy on Vercel
+1. Start the development server
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+```bash
+# Using npm
+npm run dev
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+# Or using yarn
+yarn dev
+
+```
+
+2. Access the application
+
+The server will be running at http://localhost:3000.
+
+---
+
+## Contributing
+
+Contributions are welcome! Please open an issue or submit a pull request for any improvements or bug fixes.
+
+---
+
+## License
+
+This project is licensed under the MIT License.
+
+---
+
+## Contact Information
+
+- **Author**: Vitalii Hrymalyuk
+- **Email**: [vitalii.hrymalyuk@gmail.com](mailto:vitalii.hrymalyuk@gmail.com)
+
+Feel free to reach out if you have any questions or need assistance setting up the project.
