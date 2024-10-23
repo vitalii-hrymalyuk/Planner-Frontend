@@ -72,11 +72,11 @@ Before you begin, ensure you have the following installed:
 3.
 
 ```bash
-   	# Using npm
-   	npm install
+# Using npm
+npm install
 
-   	# Or using yarn
-   	yarn install
+# Or using yarn
+yarn install
 ```
 
 ---
